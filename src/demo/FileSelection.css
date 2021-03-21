@@ -1,0 +1,42 @@
+.display-right {
+  position: relative;
+  height: 100%;
+  background-color: rgb(225, 228, 230);
+  right: 0;
+}
+
+.content-spacing {
+  margin: auto;
+  padding-right: 15%;
+}
+
+.text-display {
+  text-align: center;
+  padding: 5%;
+  padding-top: 20%;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100%;
+  font-size: 2em;
+  text-align: justify;
+  padding-left: 15%;
+  display: block;
+  width: 85%;
+}
+
+#input-position {
+  margin: auto;
+  padding: 0% 18% 18% 18%;
+}
+
+#input-position input {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 71em) {
+  #input-position input {
+    font-size: 15px;
+  }
+}

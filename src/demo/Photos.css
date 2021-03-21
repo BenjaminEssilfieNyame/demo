@@ -1,0 +1,25 @@
+#photo {
+  height: 100%;
+  position: relative;
+  background-color: white;
+}
+
+.display-left {
+  height: 100%;
+  float: left;
+  left: 0;
+  background-image: url("background.jpg");
+  background-size: 50% 33.3%;
+}
+
+.grid-display {
+  height: 66.6%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.grid-display img {
+  height: 50%;
+  width: 50%;
+}
